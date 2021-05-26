@@ -18,15 +18,7 @@ spec:
   environments:
   - key: dev
   - key: staging
-  - key: production
-  ingress:
-    domain: ""
-    externalDNS: false
-    namespaceSubDomain: -jx.
-    tls:
-      email: ""
-      enabled: false
-      production: false
+  - key: production  
   repository: bucketrepo
   secretStorage: local
   vault: {}
