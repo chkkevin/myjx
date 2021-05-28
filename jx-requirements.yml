@@ -20,12 +20,7 @@ spec:
     owner: chkkevin
     repository: myjx
   - key: staging
-  - key: production
-  ingress:
-    domain: ""
-    externalDNS: false
-    kind: ingress
-    namespaceSubDomain: -jx.
+  - key: production  
   pipelineUser:
     username: chkkevin
   repository: bucketrepo
