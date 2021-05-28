@@ -36,16 +36,7 @@ jxRequirements:
     owner: chkkevin
     repository: myjx
   - key: staging
-  - key: production
-  ingress:
-    domain: change.me
-    externalDNS: false
-    kind: ingress
-    namespaceSubDomain: -jx.
-    tls:
-      email: ""
-      enabled: false
-      production: false
+  - key: production 
   pipelineUser:
     username: chkkevin
   repository: bucketrepo
